@@ -1,0 +1,125 @@
+<!DOCTYPE html >
+<html lang="en relative" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="dark:bg-[#181A20] bg-white dark:text-black ">
+    <header class="hidden md:flex dark:bg-[#181A20] border-b-gray-500 border-b bg-white dark:text-white text-black  items-center">
+        <nav class=" flex justify-between w-full p-4 items-center">
+            <ul class="flex gap-7">
+                <img class="w-32" src="./re/binance-h.png" alt="">
+                <li><a href="">Buy Crypto</a></li>
+                <li><a href="">Markets</a></li>
+                <li><a href="">Trade</a></li>
+                <li><a href="">Futures</a></li>
+                <li><a href="">Earn</a></li>
+                <li><a href="">Square</a></li>
+                <li><a href="">More</a></li>
+            </ul>
+            <ul>
+                
+                <div class="flex gap-4 items-center" >
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <a class="px-3 py-1.5 rounded-lg dark:bg-[#2B3139] bg-gray-200 " href="">Log In</a>
+                    <a class= "px-3 py-1 rounded-lg text-black  bg-[#FCD535]" href="">Sign Up</a>
+                    <button id="theme-toggle" href=""><i class="fa-solid fa-moon"></i></button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <header class="md:hidden  w-full dark:text-white text-black flex items-center justify-between p-5 border-b-gray-500 border-b ">
+        <img class="w-32" src="./re/binance-h.png" alt="">
+        <div class="flex items-center gap-3 ">
+            <a class="px-3 py-1 text-black bg-[#FCD535] rounded-lg" href="">Sign Up</a>
+            <button id="menu-btn1"><i class="text-2xl  fa-solid fa-bars"></i></button>
+        </div>
+        <nav id="menu1" class="hidden">
+        <div  class="absolute z-10 top-0 h-screen  left-0 w-full bg-gray-200 dark:bg-[#181A20]">
+          <div class="flex justify-center gap-3 py-12">
+            <a class="px-8 py-2 dark:bg-[#333B47] rounded-lg  text-black dark:text-white" href="">Log In</a>
+            <a class="px-8 py-2 bg-yellow-500 rounded-lg text-black" href="">Sign Up</a>
+            <button class=" px-4 py-2 dark:bg-[#333B47] rounded-lg" id="theme-togglee" href=""><i class="fa-solid fa-moon"></i></button>
+
+          </div>
+
+          <div class=" flex items-center relative justify-center"> 
+            <a class="absolute left-0 p-6 text-gray-500"  href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <input placeholder="Coin, Function, Announcement" class="px-7 placeholder-gray-500 text-sm  bg-transparent w-[90%] h-8 rounded-md border border-gray-500" type="text">
+        </div>
+        <div id="closebtn1" class="dark:text-white text-black top-0 right-0 p-2 text-lg absolute"><button><i class="fa-solid fa-x"></i></button></div>
+         <div class="w-full">
+          <ul class="flex flex-col items-start p-5 gap-5 font-thin text-xl">
+            <li><a class="hover:py-3 hover:px-16  hover:bg-gray-700" href=""><span><i class="fa-brands fa-bitcoin text-gray-400 mr-2"></i></span>Buy Crypto</a></li>
+            <li><a class="hover:bg-gray-700 hover:py-3 hover:px-16" href=""><span class="text-gray-400 "><i class="fa-solid fa-chart-simple mr-2"></i></span> Markets</a></li>
+            <li><a class="hover:bg-gray-700 hover:py-3 hover:px-16" href=""><span class="text-gray-400 "><i class="fa-solid fa-comments-dollar mr-2"></i></span>Trade</a></li>
+            <li><a class="hover:bg-gray-700 hover:py-3 hover:px-16" href=""><span class="text-gray-400 "><i class="fa-solid fa-newspaper mr-2"></i> Futures</a></li>
+            <li><a class="hover:bg-gray-700 hover:py-3 hover:px-16" href=""><span class="text-gray-400 "><i class="fa-solid fa-book-open mr-2"></i></span> Square</a></li>
+
+          </ul>
+         </div>
+        </div></nav>
+       
+    </header>
+ <section class="dark:bg-[#181A20] bg-white relative dark:text-white text-black bg-cover bg-right  h-[70vh] md:bg-[url('./re/home-bg-dark.png')]" >
+    <header class="flex justify-between          items-center gap-4 w-full p-5">
+        <h1 class="font-semibold text-lg">NFT</h1>
+        <div class="hidden md:flex  gap-5">
+            <ul class="flex gap-3 items-center">
+                <li><a href="">Home</a></li>
+                <li><a href="">Drops</a></li>
+                <li><a href="">Collections</a></li>
+                <li><a href="">NFT-Fi</a></li>
+            </ul>
+            <div class=" flex items-center relative"> 
+                <a class="absolute left-0 p-3 text-gray-500"  href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <input placeholder="Search" class="lg:w-[860PX] md:w-[300px] placeholder-gray-500 px-8 py-[5px] bg-transparent border-yellow-500 rounded-md border-2" type="text">
+            </div>
+        </div>
+        <div class="flex md:hidden list-none items-center">
+           <li><a class="  p-3 text-xl"  href=""><i class="fa-solid fa-magnifying-glass"></i></a></li> 
+          <li><button id="menu-btn" class="text-2xl" href=""><i class="fas fa-bars text-xl"></i></button></li>
+        </div>
+       
+    </header>
+ </section>
+ <div id="menu" class="hidden">
+  <ul class="absolute top-0 h-screen w-full dark:text-gray-400 text-black dark:bg-[#181A20] py-20  bg-white  flex flex-col gap-5 px-5">
+    <li><a href=""><span class="text-gray-400"><i class="fa-solid fa-store mr-2"></i></span> Home</a></li>
+    <li><a href=""><span class="text-gray-400"><i class="fa-solid fa-rocket mr-2"></i></span> Drops</a></li>
+    <li><a href=""><span class="text-gray-400"><i class="fa-solid fa-chart-simple mr-2"></i></span> Collections</a></li>
+    <li><a href=""><span class="text-gray-400"><i class="fa-solid fa-tv mr-2"></i></span> NFT-Fi</a></li>
+</ul>
+<div id="closebtn" class="dark:text-white text-black top-0 right-0 p-5 text-lg absolute"><button><i class="fa-solid fa-x"></i></button></div>
+ </div>
+ <div class="fixed z-50 flex items-center gap-2 bottom-5 right-3 rounded-2xl bg-yellow-400 py-3 text-2xl px-4">
+    <a id="supmenu" class=" text-lg font-bold hidden" href="">Support</a>
+    <button id="supbtn" class="" href=""><i class="fa-solid fa-headset"></i></button>
+    
+
+ </div>
+</body>
+<script src="./script.js"></script>
+
+  <script>
+    const toggleBttn = document.getElementById('theme-togglee');
+    toggleBttn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+    });
+  </script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+    });
+  </script>
+
+</html>
